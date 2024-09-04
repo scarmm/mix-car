@@ -1,5 +1,5 @@
 ### 💻Site para empresa fictícia
-
-📒 **Tecnologia Utilizada:**
+<br>
+📒 **Tecnologias Utilizada:**
 - *Html*
 - *Css*
