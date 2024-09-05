@@ -217,7 +217,7 @@ strong img {
     }
 
     footer iframe {
-        display: none; /* Oculta o iframe no mobile */
+        display: none;
       }
 }
 
@@ -354,6 +354,13 @@ footer a {
     list-style: none;
     text-decoration: none;
     color: #fff;
+}
+
+footer a:hover {
+    list-style: none;
+    text-decoration: none;
+    color: #4e4e4e;
+    transition: 1s;
 }
 
 footer img {
