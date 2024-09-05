@@ -215,6 +215,10 @@ strong img {
         align-items: center;
         align-self: center;
     }
+
+    footer iframe {
+        display: none; /* Oculta o iframe no mobile */
+      }
 }
 
 .row {
@@ -336,6 +340,8 @@ footer {
     bottom: 0;
     left: 0;
     height: 100%;
+    display:flex;
+    justify-content: space-between;
 }
 
 footer p {
@@ -344,8 +350,15 @@ footer p {
     margin-bottom: 10px;
 }
 
+footer a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
 footer img {
     margin-right: 5px;
     height: 22px;
     width: 22px;
+    cursor: pointer;
 }
